@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div class="from1">
+    <form >
+        Username: <br>
+        <input type="text" placeholder="Enter Username" id="user" oninput="validateuser()" ><br>
+        <p id="user1"></p><br>
+        Password: <br>
+        <input type="text" placeholder="Enter Password" id="pass" oninput="validatepass()"><br>
+        <p id="pass1"></p><br>
+        Confirm Password: <br>
+        <input type="text" placeholder="Enter Confirm Password" id="confirm" oninput="validateconf()"><br>
+        <p id="confirm1"></p><br>
+        Mobile Number: <br>
+        <input type="text" placeholder="Enter Mobile Number" id="mob" oninput="validatemob()"><br>
+        <p id="mob1"></p><br>
+        Email: <br>
+        <input type="text" placeholder="Enter Email" id="email" oninput="validateemail()"><br>
+        <p id="email1"></p><br>
+
+        <button onclick="validate()">
+            Register
+        </button>
+        <p id="final"></p>
+        
+
+
+
+        
+       
+        
+        
+        
+
+
+    </form>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
